@@ -1,6 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 
 const handler = (req, res) => {
+  res.header("Access-Control-Allow-Origin", "https://antonyjr.in");
   res.setHeader("Content-Type", "application/json");
   res.statusCode = 200;
   if (req.method != "POST") {
