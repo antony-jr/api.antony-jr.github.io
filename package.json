@@ -1,0 +1,21 @@
+{
+  "name": "api.antony-jr.github.io",
+  "version": "1.0.0",
+  "description": "API Server for my Official Website",
+  "main": "index.js",
+  "repository": "git@github.com:antony-jr/api.antony-jr.github.io",
+  "author": "antony-jr <antonyjr@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+   "dev": "next dev",
+   "build": "next build",
+   "start": "next start",
+   "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^11.0.1",
+    "node-telegram-bot-api": "^0.54.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
